@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-// import Gallery from "./App";
+import Gallery from "./App";
 // import TodoList from "./App";
 // import Profile from "./App";
 // import List from "./App";
-import TeaSet from "./App";
+// import TeaSet from "./App";
+import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")).render(
     {/* <TodoList /> */}
     {/* <Profile /> */}
     {/* <List /> */}
-    <TeaSet/>
+    {/* <TeaSet/> */}
+    <App/>
   </StrictMode>
 );

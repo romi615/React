@@ -148,20 +148,76 @@
 //   );
 // }
 
-let guest = 0;
+// let guest = 0;
 
-function Cup() {
-  // Bad: changing a preexisting variable!
-  guest = guest + 1;
-  return <h2>Tea cup for guest #{guest}</h2>;
-}
+// function Cup() {
+//   // Bad: changing a preexisting variable!
+//   guest = guest + 1;
+//   return <h2>Tea cup for guest #{guest}</h2>;
+// }
 
-export default function TeaSet() {
-  return (
-    <>
-      <Cup />
-      {/* <Cup />
-      <Cup /> */}
-    </>
-  );
-}
+// export default function TeaSet() {
+//   return (
+//     <>
+//       <Cup />
+//       <Cup />
+//       <Cup />
+//     </>
+//   );
+// }
+
+// function Cup({ guest }) {
+//   return <h2>Tea cup for guest #{guest}</h2>;
+// }
+
+// export default function TeaSet() {
+//   return (
+//     <>
+//       <Cup guest={1} />
+//       <Cup guest={2} />
+//       <Cup guest={3} />
+//     </>
+//   );
+// }
+
+
+// export default function Profile() {
+//   return (
+//     <img
+//       src="https://i.imgur.com/MK3eW3Am.jpg"
+//       alt="Katherine Johnson"
+//     />
+//   )
+// }
+
+
+// function Profile() {
+//   return (
+//     <img
+//       src="https://i.imgur.com/MK3eW3As.jpg"
+//       alt="Katherine Johnson"
+//     />
+//   );
+// }
+
+// export default function Gallery() {
+//   return (
+//     <section>
+//       <h1>Amazing scientists</h1>
+//       <Profile />
+//       <Profile />
+//       <Profile />
+//     </section>
+//   );
+// }
+
+// import Gallery from "./components/Gallery";
+// import { Profile } from "./components/Gallery";
+
+// function App() {
+//   return (
+//     <Gallery/>
+//   )
+// }
+
+// export default App
